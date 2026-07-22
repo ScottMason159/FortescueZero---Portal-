@@ -1,0 +1,12 @@
+/* Shared navigation rail for every Performance Hub tile. */
+body.has-hub-rail .page-shell { padding-left: var(--rail-width); }
+body.has-hub-rail > main { margin-left: var(--rail-width); transition: margin-left .22s ease; }
+body.has-hub-rail.rail-collapsed .page-shell { padding-left: var(--rail-collapsed); }
+body.has-hub-rail.rail-collapsed > main { margin-left: var(--rail-collapsed); }
+body.has-hub-rail .topbar { margin-left: var(--rail-width); transition: margin-left .22s ease; }
+body.has-hub-rail.rail-collapsed .topbar { margin-left: var(--rail-collapsed); }
+@media (max-width:850px) {
+  body.has-hub-rail .page-shell, body.has-hub-rail.rail-collapsed .page-shell { padding-left: 0; }
+  body.has-hub-rail > main, body.has-hub-rail.rail-collapsed > main, body.has-hub-rail .topbar, body.has-hub-rail.rail-collapsed .topbar { margin-left: 0; }
+  body.has-hub-rail .topbar { padding-left: 80px; }
+}

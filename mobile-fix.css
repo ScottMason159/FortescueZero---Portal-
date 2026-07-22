@@ -1,0 +1,5 @@
+@media (max-width: 800px) {
+  .shell { width: calc(100% - 40px); }
+  .hero h1 { font-size: 44px; }
+  .hero p { max-width: 320px; }
+}

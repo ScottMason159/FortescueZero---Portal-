@@ -1,0 +1,6 @@
+.tile-cyan { background: linear-gradient(90deg, rgba(0,29,68,.94), rgba(0,29,68,.38)), url('assets/lsi-month-to-date.jpg') center/cover no-repeat; color: #fff; }
+.tile-cyan span { color: #00ff00; }
+.tile-cyan em { color: #e3edf5; }
+.tile-guides { background: linear-gradient(90deg, rgba(0,29,68,.94), rgba(0,29,68,.48)), url('assets/quick-guides.jpg') center/cover no-repeat; color: #fff; }
+.tile-guides span { color: #00ff00; }
+.tile-guides em { color: #e2e9f1; }

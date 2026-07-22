@@ -1,0 +1,12 @@
+@media (min-width: 851px) {
+  .tile-section {
+    max-width: none;
+    margin-left: var(--rail-width);
+    margin-right: 0;
+    padding-left: clamp(42px, 7vw, 112px);
+    padding-right: clamp(42px, 7vw, 112px);
+    transition: margin-left .22s ease;
+  }
+
+  .rail-collapsed .tile-section { margin-left: var(--rail-collapsed); }
+}

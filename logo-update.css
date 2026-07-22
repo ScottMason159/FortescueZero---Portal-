@@ -1,0 +1,5 @@
+.brand img { width: 210px; height: auto; }
+.brand span { display: none; }
+.rail-brand img { width: 200px; height: auto; }
+.rail-brand span { display: none; }
+@media (max-width: 700px) { .brand img { width: 175px; } }
